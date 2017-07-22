@@ -1,0 +1,8 @@
+SET datestyle = "ISO, DMY";
+
+CREATE TABLE aluno (
+  nome VARCHAR(50) NOT NULL PRIMARY KEY,
+  email VARCHAR(20) NOT NULL,
+  curso VARCHAR(20) NOT NULL,
+  semestre VARCHAR(50) NOT NULL
+);
